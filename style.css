@@ -23,7 +23,6 @@ body{
 #logo {
     display: inline-flex;
     justify-content: flex-start;
-    dborder: 1px solid green;
     width: 49%;
     height: 50px;
 }
@@ -36,7 +35,6 @@ body{
 #nav {
     display: inline-flex;
     justify-content: flex-end;
-    dborder: 1px solid red;
     width: 49%;
     align-items: center;
     height: 50px;
@@ -55,7 +53,6 @@ body{
     margin-right: auto;
     width: 1200px;
     background-repeat: no-repeat;
-    dborder: 5px solid saddlebrown;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,12 +70,10 @@ body{
     width: 300px;
     height: 200px;
     margin: 15px 20px 0px 20px;
-    dborder: 5px solid saddlebrown;
 }
 
 #mission {
     height: 700px;
-    dborder: 5px solid saddlebrown;
     margin-top: 70px;
     display: flex;
     justify-content: center;
@@ -117,7 +112,6 @@ header {
     align-items: center;
     width: 1000px;
     flex-direction: column;
-    dborder: 5px solid orchid;
     margin-left: auto;
     margin-right: auto;
 }
@@ -126,7 +120,6 @@ header {
     display: flex;
     width: 1000px;
     justify-content: center;
-    dborder: 5px solid saddlebrown;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -141,7 +134,6 @@ header {
     margin: 10px;
     height: 250px;
     width: 300px;
-    dborder: 5px solid green;
 }
 
 .monthly-item h3{
