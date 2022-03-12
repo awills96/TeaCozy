@@ -109,7 +109,6 @@ header {
     display: flex;
     z-index: 1;
     top: 0px;
-    opacity: 0.9;
 }
 
 #tea-month {
