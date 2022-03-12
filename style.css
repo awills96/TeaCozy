@@ -2,14 +2,23 @@
     font-family: Helvetica;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
     text-align: center;
     align-items: center;
 }
 
 p {
     font-size: 22px;
+    opacity: 0.9;
 }
+
+h1, h2, h3, h4, h5 {
+    opacity: 0.9;
+}
+
+body{
+    opacity: 0.9;
+}
+
 
 #logo {
     display: inline-flex;
@@ -18,6 +27,7 @@ p {
     width: 49%;
     height: 50px;
 }
+
 
 #logo img {
     margin-left: 10px;
@@ -38,6 +48,34 @@ p {
     margin-right: 10px;
 }
 
+#locations{
+    height: 500px;
+    background-image: url('resources/images/img-locations-background.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-repeat: no-repeat;
+    dborder: 5px solid saddlebrown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#location-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.location {
+    opacity: 1 !important;
+    width: 300px;
+    height: 200px;
+    margin: 15px 20px 0px 20px;
+    dborder: 5px solid saddlebrown;
+}
+
 #mission {
     height: 700px;
     dborder: 5px solid saddlebrown;
@@ -48,7 +86,14 @@ p {
     background-image: url('resources/images/background.jpg');
     margin-left: auto;
     margin-right: auto;
-    
+    opacity: 0.9;
+}
+
+#location-text {
+    background-color: transparent;
+    position: absolute;
+    margin-bottom: 240px;
+    z-index: 10;
 }
 
 #mission-text {
@@ -64,6 +109,7 @@ header {
     display: flex;
     z-index: 1;
     top: 0px;
+    opacity: 0.9;
 }
 
 #tea-month {
@@ -86,6 +132,12 @@ header {
     flex-wrap: wrap;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
 .monthly-item {
     margin: 10px;
     height: 250px;
@@ -95,4 +147,9 @@ header {
 
 .monthly-item h3{
     margin-top: 10px;
+}
+
+footer h5{
+    text-align: left;
+    margin-left: 20px;
 }
