@@ -4,6 +4,7 @@
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    align-items: center;
 }
 
 p {
@@ -38,22 +39,21 @@ p {
 }
 
 #mission {
-    position: relative;
-    top: 73px;
     height: 700px;
     dborder: 5px solid saddlebrown;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     width: 1200px;
     background-image: url('resources/images/background.jpg');
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
+    
 }
 
 #mission-text {
     height: 100px;
-    width: 1200px
+    width: 1200px;
 }
 
 header {
@@ -63,4 +63,36 @@ header {
     width: 100%;
     display: flex;
     z-index: 1;
+    top: 0px;
+}
+
+#tea-month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    flex-direction: column;
+    dborder: 5px solid orchid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tea-month-items{
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    dborder: 5px solid saddlebrown;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.monthly-item {
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+    dborder: 5px solid green;
+}
+
+.monthly-item h3{
+    margin-top: 10px;
 }
